@@ -18,7 +18,7 @@ h6 {
 
 .header {
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: rgb(255, 235, 205);
   padding: 48px;
 }
 
@@ -26,4 +26,26 @@ h6 {
   max-width: 800px;
   margin: 0 auto;
   padding: 24px 16px;
+}
+
+article + article {
+  margin: 40px 0px;
+  padding: 16px 0px;
+  border-top: 2px solid grey;
+}
+
+nav a {
+  padding: 4px 16px;
+  color: rgb(85, 58, 30);
+}
+
+nav a:hover {
+  color: rgb(255, 132, 0);
+  background-color: wheat;
+}
+
+nav a:active {
+  color: dodgerblue;
+  border: 2px solid rgb(255, 132, 0);
+  border-radius: 2em;
 }
