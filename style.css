@@ -33,9 +33,14 @@ h6 {
   padding: 24px 16px;
 }
 
+article {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 article + article {
   margin: 40px 0px;
-  padding: 16px 0px;
+  padding-top: 16px;
   border-top: 2px solid grey;
 }
 
@@ -68,4 +73,10 @@ nav a:active {
 .experience-heading,
 .experience-subheading {
   display: inline-block;
+  margin: 0;
+}
+
+.article-heading {
+  position: relative;
+  left: -16px;
 }
