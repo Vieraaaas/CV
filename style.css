@@ -80,3 +80,19 @@ nav a:active {
   position: relative;
   left: -16px;
 }
+
+.badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 16px;
+  background-color: rgb(255, 132, 0);
+  padding: 8px;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
+
+.badge:hover {
+  transition: 0.7s ease-in-out;
+  transform: rotate(360deg);
+}
