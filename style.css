@@ -64,3 +64,8 @@ nav a:active {
   background-color: rgb(255, 132, 0);
   color: black;
 }
+
+.experience-heading,
+.experience-subheading {
+  display: inline-block;
+}
