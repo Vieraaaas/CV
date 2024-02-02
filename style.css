@@ -62,7 +62,7 @@ nav a:active {
   border-radius: 1rem;
 }
 
-#profession::after {
+.profession::after {
   content: " 💻";
 }
 
@@ -96,4 +96,16 @@ nav a:active {
 .badge:hover {
   transition: 0.7s ease-in-out;
   transform: rotate(360deg);
+}
+
+.heading-group {
+  font-size: 4rem;
+}
+
+.main-heading {
+  font-size: 1em;
+}
+
+.profession {
+  font-size: 0.375em;
 }
