@@ -128,3 +128,12 @@ nav a:active {
     position: fixed;
   }
 }
+
+@media print {
+  .badge {
+    display: none;
+  }
+  nav a {
+    display: none;
+  }
+}
