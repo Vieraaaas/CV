@@ -126,6 +126,9 @@ nav a:active {
     margin-top: 4rem;
     padding-top: 2rem;
   }
+  .navigation {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 992px) {
