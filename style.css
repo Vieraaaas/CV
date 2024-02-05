@@ -51,6 +51,9 @@ article + article {
 nav a {
   padding: 0.25rem 1rem;
   color: rgb(85, 58, 30);
+}
+
+.navigation {
   display: flex;
   flex-direction: column;
 }
