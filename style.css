@@ -81,8 +81,12 @@ nav a:active {
 
 .experience-heading,
 .experience-subheading {
-  display: inline-block;
   margin: 0;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
 }
 
 .article-heading {
@@ -128,6 +132,14 @@ nav a:active {
   }
   .navigation {
     flex-direction: row;
+  }
+  .experience-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .experience-subheading {
+    align-self: center;
+    flex-basis: 20%;
   }
 }
 
