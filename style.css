@@ -152,6 +152,12 @@ nav a:active {
   }
 }
 
+.footer {
+  text-align: center;
+  background-color: rgb(255, 235, 205);
+  padding: 0.5rem;
+}
+
 @media screen and (min-width: 992px) {
   html {
     font-size: 20px;
