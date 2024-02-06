@@ -137,6 +137,10 @@ nav a:active {
     flex-direction: row;
     justify-content: space-between;
   }
+  .experience-heading {
+    flex-basis: 80%;
+  }
+
   .experience-subheading {
     align-self: center;
     flex-basis: 20%;
