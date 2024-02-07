@@ -63,6 +63,7 @@ nav a {
   padding: 0.25rem 1rem;
   color: var(--link-color);
   transition: background-color, color, 0.3s ease-in-out;
+  border-radius: 1rem;
 }
 
 .navigation {
@@ -73,7 +74,6 @@ nav a {
 nav a:hover {
   color: var(--active-color);
   background-color: var(--signal-color);
-  border-radius: 1rem;
 }
 
 nav a:active {
