@@ -63,6 +63,7 @@ article + article {
 nav a {
   padding: 0.25rem 1rem;
   color: var(--link-color);
+  transition: background-color, color, 0.3s ease-in-out;
 }
 
 .navigation {
@@ -80,6 +81,7 @@ nav a:active {
   color: var(--active-color);
   border: 0.125rem solid var(--signal-color);
   border-radius: 1rem;
+  transition-duration: 0s;
 }
 
 .profession::after {
