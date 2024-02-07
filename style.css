@@ -118,18 +118,22 @@ nav a:focus {
 
 .badge {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0.5rem;
+  right: 1rem;
   margin: 1rem;
   background-color: var(--signal-color);
   padding: 0.5rem;
   border-radius: 0.5rem;
   font-weight: bold;
+  transition: 0.7s ease-in-out;
 }
 
-.badge:hover {
-  transition: 0.7s ease-in-out;
-  transform: rotate(360deg);
+.header:hover .badge {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.header:focus-within .badge {
+  transform: scale(1.5);
 }
 
 .heading-group {
