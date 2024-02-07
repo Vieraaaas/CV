@@ -84,6 +84,15 @@ nav a:active {
   transition-duration: 0s;
 }
 
+nav a:focus {
+  color: var(--active-color);
+  border: 0.125rem solid var(--active-color);
+  background-color: var(--signal-color);
+  padding: 0.125rem 0.875rem;
+  border-radius: 1rem;
+  transition-duration: 0s;
+}
+
 .profession::after {
   content: " 💻";
 }
