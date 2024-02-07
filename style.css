@@ -79,6 +79,7 @@ nav a:hover {
 nav a:active {
   color: var(--active-color);
   border: 0.125rem solid var(--active-color);
+  padding: 0.125rem 0.875rem;
   border-radius: 1rem;
   transition-duration: 0s;
 }
