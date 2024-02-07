@@ -10,8 +10,7 @@ html {
   --main-color: rgb(255, 235, 205);
   --main-variant: rgb(245, 222, 179);
   --signal-color: rgb(255, 132, 0);
-  --active-color: dodgerblue;
-  --text-selection: black;
+  --active-color: black;
   --link-color: rgb(85, 58, 30);
   --border-color: grey;
 }
@@ -72,14 +71,14 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--signal-color);
-  background-color: var(--main-variant);
+  color: var(--active-color);
+  background-color: var(--signal-color);
   border-radius: 1rem;
 }
 
 nav a:active {
   color: var(--active-color);
-  border: 0.125rem solid var(--signal-color);
+  border: 0.125rem solid var(--active-color);
   border-radius: 1rem;
   transition-duration: 0s;
 }
@@ -90,7 +89,7 @@ nav a:active {
 
 ::selection {
   background-color: var(--signal-color);
-  color: var(--text-selection);
+  color: var(--active-color);
 }
 
 .experience-heading,
