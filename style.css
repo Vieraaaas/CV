@@ -111,6 +111,10 @@ nav a:focus {
   flex-direction: column;
 }
 
+.experience-section + .experience-section {
+  padding-top: 2rem;
+}
+
 .article-heading {
   position: relative;
   left: -1rem;
